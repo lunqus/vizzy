@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
   <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="bootstrap/bootstrap.css">
+  <link rel="stylesheet" href="bootstrap/bootstrap.js">
   <link rel="stylesheet" href="styles/custom.css">
 </head>
 <body>
@@ -19,21 +21,27 @@
   <div class="container">
 
     <header>
-      <div class="logo">
-        <a href="index.html">
-          <img src="images/logo.png" alt="vizzy">
-        </a>
+      <div class="row align-items-center">
+        <div class="logo col-2">
+          <a href="index.html">
+            <img src="images/logo.png" alt="vizzy">
+          </a>
+        </div>
+        <nav class="col-6">
+          <a class="active_navlink" href="index.html">HOME</a>
+          <a href="pages/products.html">PRODUCTS</a>
+          <a href="pages/templates.html">TEMPLATES</a>
+          <a href="pages/pricing.html">PRICING</a>
+        </nav>
+        <div class="buttons col-4">
+          <!--<div class="first_button">sign in</div>-->
+          <!--<div class="second_button">sign up</div>-->
+          <button class="btn" type="submit">sign in</button>
+          <button class="btn btn-light" type="submit">sign up</button>
+        </div>
       </div>
-      <nav>
-        <a class="active_navlink" href="index.html">HOME</a>
-        <a href="pages/products.html">PRODUCTS</a>
-        <a href="pages/templates.html">TEMPLATES</a>
-        <a href="pages/pricing.html">PRICING</a>
-      </nav>
-      <div class="buttons">
-        <div class="first_button">sign in</div>
-        <div class="second_button">sign up</div>
-      </div>
+
+
     </header>
 
     <section>

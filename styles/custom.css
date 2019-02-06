@@ -2,3 +2,8 @@
 body {
     font-family: Arial;
 }
+
+button {
+    font-weight: bold !important;
+    text-transform: uppercase;
+}
